@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Address Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Address Book</h1>
+    <div>
+        <input placeholder="search contact" type="text" name="currency" class="biginput" id="autocomplete">
+    </div>
+    <button class="btn btn-default" id='add'>Add Contact</button>
+
+    <div id='show'>
+
+    </div>
+
+    <div id='details'></div>
+
+    <div class='form hidden' id='form'>
+        <input name='id' type='hidden' class='input' id='id' />
+        <div>
+            <label>Name</label>
+            <input name='name' type='text' class='input' id='name' />
+        </div>
+        <div>
+            <label>Email</label>
+            <input name='email' type='email' class='input' id='email' />
+        </div>
+        <div>
+            <label>Phone</label>
+            <input name='phone' type='text' class='input' id='phone' />
+        </div>
+        <div>
+            <label>Address</label>
+            <textarea name='address' class='input' id='address' rows=3></textarea>
+        </div>
+        <div class='image'>
+            <label id='imageLabel'>Image</label>
+            <input type="file" name="image" accept="image/*" id='image'>
+        </div>
+        <button class="btn btn-success" id='submit'>Submit</button>
+        <button class="btn btn-primary" id='close'>Close</button>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+
+</html>

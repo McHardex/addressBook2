@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+    padding: 0 10%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    font-family: monospace;
+    text-shadow: 2px 3px 6px grey;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border: solid #e1e1e1 1px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.input {
+    padding: 5px;
+    border: solid #e1e1e1 1px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.input>strong {
+    padding: 13px 17px
+}
+
+#address {
+    height: 50px;
+}
+
+.btn {
+    max-width: 100%;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    height: 45px;
+    min-width: 100px;
+}
+
+.hidden {
+    display: none
+}
+
+#show {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border: solid #e1e1e1 1px;
+    border-radius: 5px;
+    margin: 0 0;
+}
+
+.list {
+    border: solid #e1e1e1 1px;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-primary {
+    background-color: blue;
+    height: 34px;
+}
+
+.btn-success {
+    background-color: green;
+    height: 34px;
+}
+
+.btn-danger {
+    background-color: red;
+    height: 34px;
+}
+
+.btn-default {
+    background-color: gray;
+    height: 34px;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.show p {
+    margin: 8px;
+}
+
+.image {
+    width: 300px;
+}
+
+input#autocomplete {
+    float: right;
+    padding: 5px;
+    border: solid #e1e1e1 1px;
+    margin-bottom: 10px;
+    width: 30%;
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 5px;
+}
